@@ -23,7 +23,7 @@ namespace sistemavetor
 
             int indice = 0;
             foreach(int elemento in vetor){
-                Console.WriteLine("Posicao: {0} Valor: {1}", elemento, indice);
+                Console.WriteLine("Posicao: {0} Valor: {1}", indice, elemento);
                 indice++;
             }
         }
