@@ -1,0 +1,14 @@
+﻿<Properties StartupConfiguration="{48DF1885-7E6C-43C8-B634-F64B96D7D2CC}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="sistemavetor/Program.cs">
+    <Files>
+      <File FileName="sistemavetor/Program.cs" Line="3" Column="23" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.ItemProperties.sistemavetor PreferredExecutionTarget="MonoDevelop.Default" FirstBuild="True" />
+</Properties>
