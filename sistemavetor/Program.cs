@@ -12,14 +12,10 @@ namespace sistemavetor
 
             for (int i = 0; i < nome.Length; i++){
                 Console.WriteLine("Infome o nome ou sobrenome: ");
-                nome[i] = Console.ReadLine();
+                nome[i] = Console.ReadLine() + " ";
             }
 
-            for (int i = 0; i < nome.Length; i++)
-            {
-                Console.Write(nome[i].PadRight(nome[i].Length + 1,' '));
-
-            }
+            Console.Write(String.Concat(nome));
         }
     }
 }
