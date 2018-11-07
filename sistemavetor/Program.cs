@@ -6,16 +6,14 @@ namespace sistemavetor
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Informe a quantidade de palavras no seu nome: ");
+            Console.Write("Informe o nome: ");
+            string nome = Console.ReadLine();
 
-            string[] nome = new string[Convert.ToInt32(Console.ReadLine())];
+            string [] partes = nome.Split(" ");
 
-            for (int i = 0; i < nome.Length; i++){
-                Console.WriteLine("Infome o nome ou sobrenome: ");
-                nome[i] = Console.ReadLine() + " ";
+            for (int i = 0; i < partes.Length; i++){
+                Console.WriteLine("Posicao {0} Valor {1}", i, partes[i]);
             }
-
-            Console.Write(String.Concat(nome));
         }
     }
 }
