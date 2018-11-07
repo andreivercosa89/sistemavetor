@@ -6,25 +6,19 @@ namespace sistemavetor
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Informe a qtd de posicoes: ");
-            int qtdVetor = Convert.ToInt32(Console.ReadLine());
+            Console.WriteLine("Informe a quantidade de palavras no seu nome: ");
 
-            Console.Clear();
+            string[] nome = new string[Convert.ToInt32(Console.ReadLine())];
 
-            int[] vetor = new int[qtdVetor];
-
-            for (int i = 0; i < qtdVetor; i++)
-            {
-                Console.WriteLine("Informe a Posicao {0} do vetor.", i);
-                vetor[i] = Convert.ToInt32(Console.ReadLine());
+            for (int i = 0; i < nome.Length; i++){
+                Console.WriteLine("Infome o nome ou sobrenome: ");
+                nome[i] = Console.ReadLine();
             }
 
-            Console.Clear();
+            for (int i = 0; i < nome.Length; i++)
+            {
+                Console.Write(nome[i].PadRight(nome[i].Length + 1,' '));
 
-            int indice = 0;
-            foreach(int elemento in vetor){
-                Console.WriteLine("Posicao: {0} Valor: {1}", indice, elemento);
-                indice++;
             }
         }
     }
